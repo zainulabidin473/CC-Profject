@@ -1,0 +1,9 @@
+servies:
+  web:
+    image: nginx:latest
+    ports:
+      - "9091:80"
+    volumes:
+      - .:/usr/share/nginx/html
+      
+  
